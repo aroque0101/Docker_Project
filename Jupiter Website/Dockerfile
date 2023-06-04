@@ -17,7 +17,7 @@ RUN wget https://github.com/azeezsalu/jupiter/archive/refs/heads/main.zip
 RUN unzip main.zip
 
 # copy files into html directory
-RUN cp -r techmax-main/* /var/www/html/
+RUN cp -r jupiter-main/* /var/www/html/
 
 # remove unwanted folder
 RUN rm -rf jupiter-main main.zip
